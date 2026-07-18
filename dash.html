@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev's Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="container">
+ 
+    <aside class="sidebar">
+
+        <div class="logo">
+            <img src="image.png" alt="Logo" width="100" height="100">
+        </div>
+
+        <h2>Dev's Dashboard</h2>
+
+        <ul>
+            <li><a href="#dashboard"> Dashboard</a></li>
+            <li><a href="#Members"> Members</a></li>
+            <li><a href="#owner"> Owner</a></li>
+            <li><a href="#Group-card">Groups</a></li>
+            <li><a href="#progress">Course Progress</a></li>
+            <li><a href="#activity"> <i class="fa-solid fa-gear"></i> Recent Activity</a></li>
+        </ul>
+
+    </aside>
+
+   
+    <main class="main" id="dashboard">
+
+       
+        <header class="navbar">
+
+            <h1>Dashboard</h1>
+
+            <div class="profile">
+                <img src="adony.png" width="40" height="40" alt="Profile">
+                <span>Admin</span>
+            </div>
+
+            <section class="welcome">
+                <h2>Welcome to Dev's Community</h2>
+                <p>Track members, groups, and learning progress.</p>
+            </section>
+
+        </header> 
+        <section class="cards">
+
+            <div class="card">
+                <h3>Total Members</h3>
+                <p>38</p>
+            </div>
+
+            <div class="card">
+                <h3>Groups</h3>
+                <p>4</p>
+            </div>
+
+            <div class="card">
+                <h3>Admins</h3>
+                <p>7</p>
+            </div>
+
+            <div class="card" id="owner">
+                <h3>Owner</h3>
+                <p>1</p>
+            </div>
+
+        </section>
+ 
+        <section class="table-section" id="Members">
+    <div class="search-box">
+        <input type="text" placeholder="Search members...">
+    </div>
+            <h2>Members Table</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Group</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Adoniyas</td>
+                        <td><span class="admin">Admin</span></td>
+                        <td>Group 4</td>
+                        <td><span class="online">Online</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Zelalem</td>
+                        <td><span class="leader">Group Leader</span></td>
+                        <td>Group 4</td>
+                        <td><span class="online">Online</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Kedir</td>
+                        <td><span class="owner">Owner</span></td>
+                        <td>Group 1</td>
+                        <td><span class="online">Online</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Rekik</td>
+                        <td><span class="member">Member</span></td>
+                        <td>Group 4</td>
+                        <td><span class="offline">Offline</span></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+ 
+        <section id="Group-card">
+
+            <h2>Discussion Groups</h2>
+
+            <div class="group-card">
+                <h3>Group 1</h3>
+                <p>Members: 10</p>
+                <p>Admins: 2</p>
+                <p>Owner: Kedir</p>
+                <p>Leader: Hsfsua Mohammed</p>
+            </div>
+
+            <div class="group-card">
+                <h3>Group 2</h3>
+                <p>Members: 10</p>
+                <p>Admins: 2</p>
+                <p>Leader: Hasna Jemal</p>
+            </div>
+
+            <div class="group-card">
+                <h3>Group 3</h3>
+                <p>Members: 9</p>
+                <p>Admins: 1</p>
+                <p>Leader: Mohammed Amin</p>
+            </div>
+
+            <div class="group-card">
+                <h3>Group 4</h3>
+                <p>Members: 9</p>
+                <p>Admins: 2</p>
+                <p>Leader: Zelalem Sisay</p>
+            </div>
+
+        </section>
+ 
+        <section class="progress-section" id="progress">
+
+            <h2>Course Progress</h2>
+
+            <div class="progress-box">
+                <p>HTML <span>100%</span></p>
+                <div class="progress">
+                    <div class="html"></div>
+                </div>
+            </div>
+
+            <div class="progress-box">
+                <p>CSS <span>45%</span></p>
+                <div class="progress">
+                    <div class="css"></div>
+                </div>
+            </div>
+
+            <div class="progress-box">
+                <p>JavaScript <span>0%</span></p>
+                <div class="progress">
+                    <div class="js"></div>
+                </div>
+            </div>
+
+            <div class="progress-box">
+                <p>Other programming languages <span>0%</span></p>
+                <div class="progress">
+                    <div class="other"></div>
+                </div>
+            </div>
+
+        </section> 
+        <section class="activity" id="activity">
+
+            <h2>Recent Activity</h2>
+
+            <ul>
+                <li>HTML assignment submitted.</li>
+                <li> HTML project submitted successfully.</li>
+                <li> Members organized into four discussion groups.</li>
+                <li> HTML + CSS group assignment announced.</li>
+            </ul>
+
+        </section>
+ 
+        <footer>
+            <p>&copy; 2026 Dev's Web Development Community</p>
+            <p>Built with HTML &amp; CSS</p>
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+</html>
