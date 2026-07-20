@@ -335,7 +335,7 @@ h1{
     border-right:3px solid #22d3ee;
 
     animation:
-        typing 4s steps(58) infinite,
+        typing 10s steps(58) infinite,
         blink .7s step-end infinite;
 }
 
