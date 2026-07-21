@@ -49,22 +49,14 @@ body.light .navbar a{
     width:95%;
     max-width:1500px;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
     padding:15px 35px;
     background:#111;
     border-radius:60px;
     border:1px solid #333;
     box-shadow:    0 0 20px rgba(34,211,238,.15),    0 0 40px rgba(34,211,238,.08);
-    z-index:1000;
-    -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    -ms-transform:translateX(-50%);
-    -o-transform:translateX(-50%);
-    -webkit-border-radius:60px;
-    -moz-border-radius:60px;
-    -ms-border-radius:60px;
-    -o-border-radius:60px;
+    z-index:1000; 
 }
 .navbar i{
     margin-right:6px;
