@@ -51,7 +51,7 @@ body.light .navbar a{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 35px;
+    padding:16px 35px;
     background:#111;
     border-radius:60px;
     border:1px solid #333;
